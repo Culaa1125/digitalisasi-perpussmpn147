@@ -1,59 +1,163 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Digitalisasi Perpustakaan SMPN 147 Jakarta
 
-## About Laravel
+Website perpustakaan digital SMP Negeri 147 Jakarta yang dikembangkan untuk mempermudah siswa dalam mengakses koleksi buku digital, menonton film edukatif, dan mengunggah karya secara digital. Website ini dilengkapi dengan sistem pengelolaan konten, rating dan ulasan, serta dashboard admin untuk mendukung pengelolaan perpustakaan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### User (Siswa)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Dashboard** — Menampilkan halaman utama dan informasi karya yang telah diunggah.
+- **Buku Digital** — Menampilkan koleksi buku yang dapat dibaca melalui website.
+- **Film Edukatif** — Menyediakan koleksi film yang dapat ditonton secara langsung.
+- **Pencarian** — Memudahkan pencarian koleksi buku dan film.
+- **Detail Buku dan Film** — Menampilkan deskripsi, informasi pengunggah, tanggal unggah, dan rating.
+- **Baca Buku** — Menyediakan fitur membaca buku digital dan melihat progres membaca.
+- **Rating dan Review** — Memungkinkan siswa memberikan penilaian dan ulasan terhadap buku atau film.
+- **Unggah Karya** — Memungkinkan siswa mengunggah karya berupa file dan thumbnail.
+- **Chatbot** — Membantu memberikan rekomendasi buku, video populer, dan informasi perpustakaan.
+- **Registrasi dan Login** — Menyediakan autentikasi pengguna untuk mengakses fitur website.
 
-## Learning Laravel
+### Admin
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- **Dashboard Admin** — Menampilkan statistik siswa, karya, aktivitas pengguna, dan konten yang menunggu persetujuan.
+- **Manajemen Data Siswa** — Melihat, mengubah, dan menghapus data siswa.
+- **Aktivitas Siswa** — Memantau aktivitas pengguna dan tanggal akses.
+- **Manajemen Review dan Komentar** — Memantau dan menghapus komentar pada buku atau film.
+- **Manajemen Karya** — Melihat, mencari, menyortir, dan mengelola karya siswa.
+- **Persetujuan Karya** — Menyetujui atau menolak karya yang diunggah siswa.
+- **Unggah Karya Admin** — Menambahkan karya baru melalui panel admin.
+- **Detail Karya** — Melihat informasi karya, pengunggah, tanggal unggah, status persetujuan, dan file karya.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Teknologi yang Digunakan
 
-## Laravel Sponsors
+| Teknologi | Keterangan |
+|---|---|
+| Laravel | Framework backend |
+| PHP | Bahasa pemrograman backend |
+| MySQL | Sistem manajemen basis data |
+| Tailwind CSS | Framework CSS untuk antarmuka pengguna |
+| Vite | Build tool untuk aset frontend |
+| Alpine.js | Mendukung interaksi antarmuka pengguna |
+| Composer | Pengelola dependensi PHP |
+| NPM | Pengelola dependensi frontend |
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Persyaratan Sistem
 
-### Premium Partners
+Pastikan perangkat telah memiliki:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- PHP 8.2 atau versi yang sesuai dengan dependensi proyek
+- Composer
+- MySQL
+- Node.js dan NPM
+- Git
+- Web browser
 
-## Contributing
+## Instalasi dan Konfigurasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 1. Clone Repository
 
-## Code of Conduct
+```bash
+git clone https://github.com/Culaa1125/digitalisasi-perpussmpn147.git
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Masuk ke direktori proyek:
 
-## Security Vulnerabilities
+```bash
+cd digitalisasi-perpussmpn147
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 2. Instal Dependensi Backend
 
-## License
+```bash
+composer install
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 3. Konfigurasi Environment
+
+Salin file `.env.example` menjadi `.env`.
+
+**Windows:**
+
+```bat
+copy .env.example .env
+```
+
+**Linux, macOS, atau Git Bash:**
+
+```bash
+cp .env.example .env
+```
+
+Buat application key Laravel:
+
+```bash
+php artisan key:generate
+```
+
+### 4. Konfigurasi Database MySQL
+
+Buat database baru melalui MySQL atau phpMyAdmin.
+
+Contoh:
+
+```sql
+CREATE DATABASE digitalisasi_perpustakaan;
+```
+
+Selanjutnya, buka file `.env` dan sesuaikan konfigurasi database:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=digitalisasi_perpustakaan
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Sesuaikan nama database, username, dan password berdasarkan konfigurasi MySQL pada perangkat masing-masing.
+
+### 5. Migrasi Database
+
+Jalankan perintah berikut:
+
+```bash
+php artisan migrate
+```
+
+Jika proyek memerlukan data awal, periksa konfigurasi seeder sebelum menjalankannya.
+
+### 6. Instal Dependensi Frontend
+
+```bash
+npm install
+```
+
+### 7. Jalankan Website
+
+Buka dua terminal pada direktori proyek.
+
+**Terminal pertama — Laravel:**
+
+```bash
+php artisan serve
+```
+
+**Terminal kedua — Vite:**
+
+```bash
+npm run dev
+```
+
+Setelah kedua proses berjalan, buka browser dan akses:
+
+http://127.0.0.1:8000
+
+### 8. Build Aset Frontend
+
+Untuk membangun aset frontend:
+
+```bash
+npm run build
+```
